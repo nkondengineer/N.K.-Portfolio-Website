@@ -1,2 +1,2 @@
-# N.K.-Portfolio-Website
-This contains all of my previous engineering experiences and projects
+# Nayan Kondakalla Portfolio Website
+This portfolio contains all engineering experiences and projects that I have done
