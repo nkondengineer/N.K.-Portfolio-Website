@@ -8,7 +8,7 @@
 
   <!-- Put your site title here -->
   <title>
-    Syed Ali Hussnain | A Web Developer based in Lahore, Pakistan.
+    Nayan Kondakalla | Biomedical Engineer
   </title>
 
   <meta name="description" content="Add small description of yourslef.">
