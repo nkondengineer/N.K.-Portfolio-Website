@@ -205,7 +205,7 @@
           me is via an email.
         </p>
         <!-- Replace the email with yours -->
-        <a href="mailto:you@example.com" class="btn">you@example.com</a>
+        <a href="mailto:nayankay@gmail.com" class="btn">nayankay@gmail.com</a>
       </div>
     </div>
   </section>
