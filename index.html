@@ -162,7 +162,7 @@
   <!-- ***** Contact ***** -->
 
   <section class="contact" id="contact">
-    <div class="row">
+    <div class="row-fluid">
       <h2>Get in Touch</h2>
       <div class="contact_info">
         <h3>Contact Information</h3>
@@ -177,9 +177,20 @@
           <img src="./images/email.png" class="contact_info" alt="contactemail" height="20" width="20" />
           <strong>TBD</strong>
         </p>
-                  
-        <!-- Will have direct type input, update in future -->
-        <a href="mailto:nayankay@gmail.com" class="btn">Email</a>
+      </div>
+        <div class="span7">
+          <form class="contact-form" id="contact-form">
+            <div class="contact-row">
+              <input type="text" id="fname" placeholder="Name">
+            </div>
+            <div class="contact-row">
+              <input type="text" id="email" placeholder="Email">
+            </div>
+            <div class="contact-row">
+              <textarea id="message" name="message" placeholder="Say hello!"></textarea>
+            </div>
+            <button type="submit" id="submit_contact_info" class="btn btn-red">Send message</button>
+          </form>
       </div>
     </div>
   </section>
