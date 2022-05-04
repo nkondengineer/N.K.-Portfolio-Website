@@ -546,7 +546,6 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .grid-container {
-    max-width: var(--container-medium-width);
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-gap: 20px;
