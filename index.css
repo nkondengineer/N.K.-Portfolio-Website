@@ -550,6 +550,11 @@ body:not(.user-is-tabbing) a:focus {
     grid-template-columns: 1fr 1fr;
     grid-gap: 10px;
 }
+
+.grid-child-1 {
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+}
 /* --------------------------------------- */
 /* ----- Footer ----- */
 /* --------------------------------------- */
