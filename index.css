@@ -545,16 +545,16 @@ body:not(.user-is-tabbing) a:focus {
     max-width: var(--container-medium-width);
 }
 
-.grid-container {
+.grid-container {  
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
+    grid-gap: 10px
+    max-width: var(--container-max-width);
+    margin: 0 auto:
 }
 
-.grid-child-1 {
-    max-width: var(--container-max-width);
-    margin: 0 auto;
-}
+
+
 /* --------------------------------------- */
 /* ----- Footer ----- */
 /* --------------------------------------- */
