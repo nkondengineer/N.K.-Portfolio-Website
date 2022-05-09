@@ -552,6 +552,11 @@ body:not(.user-is-tabbing) a:focus {
     padding: 0 var(--gutter-medium);  
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    box-sizing: border-box;
+    resize: vertical;
+}
 
 
 /* --------------------------------------- */
