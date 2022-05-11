@@ -85,10 +85,16 @@ body {
     .row {
         max-width: 1100px;
     }
+    .grid-container {
+        max-width: 1100px;
+    }
 }
 
 @media(max-width: 1240px) {
     .row {
+        padding: 0 var(--gutter-medium);
+    }
+    .grid-container {
         padding: 0 var(--gutter-medium);
     }
 }
@@ -97,10 +103,16 @@ body {
     .row {
         padding: 0 var(--gutter-normal);
     }
+    .grid-container {
+        padding: 0 var(--gutter-normal);
+    }
 }
 
 @media(max-width: 600px) {
     .row {
+        padding: 0 var(--gutter-small);   
+    }
+    .grid-container {
         padding: 0 var(--gutter-small);
     }
 }
