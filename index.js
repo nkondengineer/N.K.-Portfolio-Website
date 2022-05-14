@@ -42,16 +42,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-function on() {
-  document.getElementById("overlay").style.display = "block";
-}
-
-function off() {
-  document.getElementById("overlay").style.display = "none";
-}
-
-
-
 © 2022 GitHub, Inc.
 Terms
 Privacy
