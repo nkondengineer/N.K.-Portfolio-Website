@@ -569,7 +569,11 @@ input[type=text], select, textarea {
     width: 100%;
     box-sizing: border-box;
     resize: vertical;
-    border: 2px;
+    margin-bottom: 10px;
+    padding-bottom: 3px;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 
