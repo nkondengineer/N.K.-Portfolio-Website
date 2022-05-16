@@ -573,6 +573,11 @@ body:not(.user-is-tabbing) a:focus {
     }
 }
 
+#about-grid {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 /* --------------------------------------- */
 /* ----- Contact ----- */
 /* --------------------------------------- */
