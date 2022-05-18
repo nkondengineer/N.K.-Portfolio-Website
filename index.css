@@ -582,7 +582,7 @@ body:not(.user-is-tabbing) a:focus {
 * {box-sizing:border-box}
 
 /* Container for skill bars */
-.container {
+.barcontainer {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
 }
