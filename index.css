@@ -381,8 +381,9 @@ body:not(.user-is-tabbing) a:focus {
     display: flex;
     list-style: none;
     position: fixed;
-    top: 0;
-    width: 100%;
+    top:0;
+    overflow: hidden;
+    background-color: var(--black);
 }
 
 .nav__item:not(:last-child) {
