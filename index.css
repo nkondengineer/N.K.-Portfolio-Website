@@ -578,13 +578,10 @@ body:not(.user-is-tabbing) a:focus {
     margin-bottom: 10px;
 }
 
-/* Make sure that padding behaves as expected */
-* {box-sizing:border-box}
 
-/* Container for skill bars */
 .barcontainer {
-  width: 100%; /* Full width */
-  background-color: #ddd; /* Grey background */
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .skills {
@@ -594,10 +591,10 @@ body:not(.user-is-tabbing) a:focus {
   color: white; /* White text color */
 }
 
-.html {width: 90%; background-color: #04AA6D;} /* Green */
-.css {width: 80%; background-color: #2196F3;} /* Blue */
-.js {width: 65%; background-color: #f44336;} /* Red */
-.php {width: 60%; background-color: #808080;} /* Dark Grey */
+.html {width: 90%; background-color: var(--red);}
+.css {width: 80%; background-color: var(--red);}
+.js {width: 65%; background-color: var(--red);} 
+.php {width: 60%; background-color: var(--red);}
 
 /* --------------------------------------- */
 /* ----- Contact ----- */
