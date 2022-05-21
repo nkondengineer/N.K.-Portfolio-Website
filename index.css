@@ -580,10 +580,11 @@ body:not(.user-is-tabbing) a:focus {
 
 
 .barcontainer {
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0);
-  margin-top: 10px;
-  margin-botom: 10px;
+    width: 100%;
+    margin-top: 10px;
+    margin-botom: 10px;
+    border-radius: 10px;
+    border: 3px solid var(--red);
 }
 
 .skills {
