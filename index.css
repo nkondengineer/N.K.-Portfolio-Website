@@ -380,6 +380,9 @@ body:not(.user-is-tabbing) a:focus {
 .nav__items {
     display: flex;
     list-style: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .nav__item:not(:last-child) {
