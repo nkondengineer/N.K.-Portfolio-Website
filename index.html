@@ -1,216 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
-  
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/nklogo.png" />
-
-  <title>
-    Nayan Kondakalla's Portfolio
-  </title>
-
-  <meta name="description" content="This is the website that displays Nayan Kondakalla's portfolio. 
-                                    It contains all of the previous work that I have done thus far, current projects that I am working on, or future designs. 
-                                    It also contains my resume and previous experiences">
-  <meta name="keywords" content="Nayan, Kondakalla, Portfolio, Biomedical, Engineer" />
-  <link rel="stylesheet" href="index.css" />
-  
-  <script>
-    function overlayon() {
-      document.getElementById("overlay").style.display = "block";
-    }
-    function overlayoff() {
-      document.getElementById("overlay").style.display = "none";
-    }
-  </script>
-  
-  
-</head>
-
-<body onload="overlayon()">
-  
-  <div id="overlay" onclick="overlayoff()">
-    <div id="overlay_text"><img src="./images/overlay.png" height="400" width="400">This Website is a Work in Progress. Thank You for Your Patience!</div>
-  </div>
-  
-  <a name="home"></a>
-
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
-          <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
-          </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
-          </li>
-        </ul>
-      </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/nklogo.png" />
+    <title>
+      Nayan Kondakalla's Portfolio
+    </title>
+    <meta name="description" content="This is the website that displays Nayan Kondakalla's portfolio. 
+      It contains all of the previous work that I have done thus far, current projects that I am working on, or future designs. 
+      It also contains my resume and previous experiences">
+    <meta name="keywords" content="Nayan, Kondakalla, Portfolio, Biomedical, Engineer" />
+    <link rel="stylesheet" href="index.css" />
+    <script>
+      function overlayon() {
+        document.getElementById("overlay").style.display = "block";
+      }
+      function overlayoff() {
+        document.getElementById("overlay").style.display = "none";
+      }
+    </script>
+  </head>
+  <body onload="overlayon()">
+    <div id="overlay" onclick="overlayoff()">
+      <div id="overlay_text"><img src="./images/overlay.png" height="400" width="400">This Website is a Work in Progress. Thank You for Your Patience!</div>
     </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <span>Nayan Kondakalla</span>
-        </h1>
-        <p>B.E. in Biomedical Engineering</p>
-        <a href="#contact" class="btn btn--red">Get in touch!</a>
-        <a href="#about" class="btn btn--red">Resume</a>
-        <div class="about_photo-container">
-          <img class="about_photo" src="./images/headshot.jpg" alt="NK Portrait" />
+    <a name="home"></a>
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#project" class="nav__link">Projects</a></li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <span>Nayan Kondakalla</span>
+          </h1>
+          <p>B.E. in Biomedical Engineering</p>
+          <a href="#contact" class="btn btn--red">Get in touch!</a>
+          <a href="#about" class="btn btn--red">Resume</a>
+          <div class="about_photo-container">
+            <img class="about_photo" src="./images/headshot.jpg" alt="NK Portrait" />
+          </div>
         </div>
       </div>
-    </div>
-  </header>
-  
-  <main role="main">
- 
-    <section class="project" id="project">
-      <div class="row">
-        <h2>My Projects</h2>
-        
+    </header>
+    <main role="main">
+      <section class="project" id="project">
         <div class="row">
-          <h3>Professional Projects</h3>
-        </div>
-        
-        <div class="work__box">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
+          <h2>My Projects</h2>
+          <div class="row">
+            <h3>Professional Projects</h3>
           </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        
           <div class="work__box">
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>John Doe</h1>
+                  <p>Architect & Engineer</p>
+                  <p>We love that guy</p>
+                </div>
               </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
+            </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>John Doe</h1>
+                  <p>Architect & Engineer</p>
+                  <p>We love that guy</p>
+                </div>
               </div>
             </div>
           </div>
-          <div class="flip-card">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
-              </div>
-              <div class="flip-card-back">
-                <h1>John Doe</h1>
-                <p>Architect & Engineer</p>
-                <p>We love that guy</p>
-              </div>
-            </div>
-          </div>
-        </div>        
-      </div>
-    </section>
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about_content">
-          <div class="about_text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p style="text-indent: 40px">
-              Hello! My name is Nayan Kondakalla. I am a recent Biomedical Engineering graduate from Stony Brook University with a background in
-              mechanical and molecular/cellular engineering. I enjoy finding ways to directly improve the health of patients and 
-              push the boundaries of medical technologies. I am constantly learning new skills and honing the ones that I have. 
-            </p>
-            <p style="text-indent: 40px">
-              Recently, I have had the pleasure of interning at Stony Brook Hospital where I observed the many ways that healthcare providers work hard
-              to provide top-quality care to their patients. Wanting to do my part, I prototyped a neonatal ECG monitoring system as my senior design project.
-              Though I still have much to learn, I am ready to take any challenge head-on!
-            </p>
-            <!-- Provide a link to your resume -->
-            <a href="./pdfs/NK Resume Online.pdf" target="_blank" class="btn">My Resume</a>
-          </div>
-          <div class="grid-container" id="about-grid">
-            <div class="grid-child" align="left">
-              <h3>Areas of Interest</h3>
-              <div class="row">
-                <strong>- Innovation in Medicine</strong>               
-                <br>
-                <strong>- Medical Device Design</strong>
-                <br>
-                <strong>- Computer-Aided Design</strong>
-                <br>
-                <strong>- Hardware/Software Integration</strong>
-              </div>
-            </div>
-            <div class="grid-child" align="left">
-              <h3>Skills</h3>
-              <div>
-                <div class="barcontainer">
-                  <div class="skills html">MATLAB 80%</div>
+          <div class="work__box">
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
                 </div>
-                <div class="barcontainer">
-                  <div class="skills css">CAD (AutoDesk F360) 70%</div>
-                </div>
-
-                <div class="barcontainer">
-                  <div class="skills js">Python 60%</div>
-                </div>
-                <div class="barcontainer">
-                  <div class="skills php">HTML/CSS (NEW!) 20%</div>
+                <div class="flip-card-back">
+                  <h1>John Doe</h1>
+                  <p>Architect & Engineer</p>
+                  <p>We love that guy</p>
                 </div>
               </div>
             </div>
+            <div class="flip-card">
+              <div class="flip-card-inner">
+                <div class="flip-card-front">
+                  <img src="img_avatar.png" alt="Avatar" style="width:300px;height:300px;">
+                </div>
+                <div class="flip-card-back">
+                  <h1>John Doe</h1>
+                  <p>Architect & Engineer</p>
+                  <p>We love that guy</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
-        </section>
-      </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-    </div>            
-    <div class="grid-container">
-      <div class="grid-child" align="left">
-        <h3>Contact Information</h3>
-        <p class="medium-text">
-          <!-- placeholder images for now -->
-          <img src="./images/person.png" class="contact_info" alt="contactperson" height="20" width="20" />
-          <strong>Nayan Kondakalla</strong>
-          <br>
-          <img src="./images/phone.png" class="contact_info" alt="contactphone" height="20" width="20" />
-          <strong>TBD</strong>
-          <br>
-          <img src="./images/email.png" class="contact_info" alt="contactemail" height="20" width="20" />
-          <strong>TBD</strong>
-        </p>
+      </section>
+      <!-- ***** About ***** -->
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about_content">
+            <div class="about_text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p style="text-indent: 40px">
+                Hello! My name is Nayan Kondakalla. I am a recent Biomedical Engineering graduate from Stony Brook University with a background in
+                mechanical and molecular/cellular engineering. I enjoy finding ways to directly improve the health of patients and 
+                push the boundaries of medical technologies. I am constantly learning new skills and honing the ones that I have. 
+              </p>
+              <p style="text-indent: 40px">
+                Recently, I have had the pleasure of interning at Stony Brook Hospital where I observed the many ways that healthcare providers work hard
+                to provide top-quality care to their patients. Wanting to do my part, I prototyped a neonatal ECG monitoring system as my senior design project.
+                Though I still have much to learn, I am ready to take any challenge head-on!
+              </p>
+              <!-- Provide a link to your resume -->
+              <a href="./pdfs/NK Resume Online.pdf" target="_blank" class="btn">My Resume</a>
+            </div>
+            <div class="grid-container" id="about-grid">
+              <div class="grid-child" align="left">
+                <h3>Areas of Interest</h3>
+                <div class="row">
+                  <strong>- Innovation in Medicine</strong>               
+                  <br>
+                  <strong>- Medical Device Design</strong>
+                  <br>
+                  <strong>- Computer-Aided Design</strong>
+                  <br>
+                  <strong>- Hardware/Software Integration</strong>
+                </div>
+              </div>
+              <div class="grid-child" align="left">
+                <h3>Skills</h3>
+                <div>
+                  <div class="barcontainer">
+                    <div class="skills html">MATLAB 80%</div>
+                  </div>
+                  <div class="barcontainer">
+                    <div class="skills css">CAD (AutoDesk F360) 70%</div>
+                  </div>
+                  <div class="barcontainer">
+                    <div class="skills js">Python 60%</div>
+                  </div>
+                  <div class="barcontainer">
+                    <div class="skills php">HTML/CSS (NEW!) 20%</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- ***** Contact ***** -->
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
       </div>
+      <div class="grid-container">
+        <div class="grid-child" align="left">
+          <h3>Contact Information</h3>
+          <p class="medium-text">
+            <!-- placeholder images for now -->
+            <img src="./images/person.png" class="contact_info" alt="contactperson" height="20" width="20" />
+            <strong>Nayan Kondakalla</strong>
+            <br>
+            <img src="./images/phone.png" class="contact_info" alt="contactphone" height="20" width="20" />
+            <strong>TBD</strong>
+            <br>
+            <img src="./images/email.png" class="contact_info" alt="contactemail" height="20" width="20" />
+            <strong>TBD</strong>
+          </p>
+        </div>
         <div class="grid-child" align="left">
           <h3>Send a Message</h3>
           <form class="contact-form" id="contact-form" action="action_page.php">
@@ -226,26 +206,21 @@
             <button type="submit" id="submit_contact_info" class="btn btn--red" align="center">Send message</button>
           </form>
           <!--
-          <div class="alert-success alert">
-            "Thank you for your message. I will get back to you via email as soon as possible."
-          </div>
-          <div class="alert-error alert">
-            "Sorry, your message was not able to be sent successfully. Please check to make sure that all of your information is correct."
-          </div> -->
-
+            <div class="alert-success alert">
+              "Thank you for your message. I will get back to you via email as soon as possible."
+            </div>
+            <div class="alert-error alert">
+              "Sorry, your message was not able to be sent successfully. Please check to make sure that all of your information is correct."
+            </div> -->
+        </div>
       </div>
-    </div>
-  </section>
-
-  <!-- Footer -->
+    </section>
+    <!-- Footer -->
     <!-- Just returns to the top for now, add more features in future -->
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <a href="#home" class="btn btn--red" align="center">Return to Top</a>
-    </div>
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <a href="#home" class="btn btn--red" align="center">Return to Top</a>
+      </div>
     </footer>
-
-           
-    </body>
-
+  </body>
 </html>
