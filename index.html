@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -12,6 +13,7 @@
       It also contains my resume and previous experiences">
     <meta name="keywords" content="Nayan, Kondakalla, Portfolio, Biomedical, Engineer" />
     <link rel="stylesheet" href="index.css" />
+    
     <script>
       function overlayon() {
         document.getElementById("overlay").style.display = "block";
@@ -21,10 +23,12 @@
       }
     </script>
   </head>
+  
   <body onload="overlayon()">
     <div id="overlay" onclick="overlayoff()">
       <div id="overlay_text"><img src="./images/overlay.png" height="400" width="400">This Website is a Work in Progress. Thank You for Your Patience!</div>
     </div>
+   
     <a name="home"></a>
     <header class="header" role="banner" id="top">
       <div class="row">
@@ -41,6 +45,7 @@
           </ul>
         </nav>
       </div>
+      
       <div class="header__text-box row">
         <div class="header__text">
           <h1 class="heading-primary">
@@ -55,10 +60,12 @@
         </div>
       </div>
     </header>
+    
     <main role="main">
       <section class="project" id="project">
         <div class="row">
           <h2>My Projects</h2>
+          
           <div class="row">
             <h3>Professional Projects</h3>
           </div>
@@ -88,6 +95,7 @@
               </div>
             </div>
           </div>
+          
           <div class="row">
             <h3>Personal Projects</h3>
           </div>
@@ -119,13 +127,14 @@
           </div>
         </div>
       </section>
+      
       <!-- ***** About ***** -->
       <section class="about" id="about">
         <div class="row">
           <h2>About Me</h2>
+         
           <div class="about_content">
             <div class="about_text">
-              <!-- Replace the below paragraph with info about yourself -->
               <p style="text-indent: 40px">
                 Hello! My name is Nayan Kondakalla. I am a recent Biomedical Engineering graduate from Stony Brook University with a background in
                 mechanical and molecular/cellular engineering. I enjoy finding ways to directly improve the health of patients and 
@@ -136,9 +145,10 @@
                 to provide top-quality care to their patients. Wanting to do my part, I prototyped a neonatal ECG monitoring system as my senior design project.
                 Though I still have much to learn, I am ready to take any challenge head-on!
               </p>
-              <!-- Provide a link to your resume -->
+
               <a href="./pdfs/NK Resume Online.pdf" target="_blank" class="btn">My Resume</a>
             </div>
+            
             <div class="grid-container" id="about-grid">
               <div class="grid-child" align="left">
                 <h3>Areas of Interest</h3>
@@ -174,6 +184,7 @@
         </div>
       </section>
     </main>
+    
     <!-- ***** Contact ***** -->
     <section class="contact" id="contact">
       <div class="row">
@@ -182,6 +193,7 @@
       <div class="grid-container">
         <div class="grid-child" align="left">
           <h3>Contact Information</h3>
+          
           <p class="medium-text">
             <!-- placeholder images for now -->
             <img src="./images/person.png" class="contact_info" alt="contactperson" height="20" width="20" />
@@ -193,6 +205,7 @@
             <img src="./images/email.png" class="contact_info" alt="contactemail" height="20" width="20" />
             <strong>TBD</strong>
           </p>
+       
         </div>
         <div class="grid-child" align="left">
           <h3>Send a Message</h3>
@@ -218,6 +231,7 @@
         </div>
       </div>
     </section>
+   
     <!-- Footer -->
     <!-- Just returns to the top for now, add more features in future -->
     <footer role="contentinfo" class="footer">
