@@ -562,7 +562,7 @@ body:not(.user-is-tabbing) a:focus {
 
 /* Style the back side */
 .flip-card-back {
-  background-color: dodgerblue;
+  background-color: black;
   color: white;
   transform: rotateY(180deg);
 }
