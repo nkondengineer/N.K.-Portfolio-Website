@@ -528,6 +528,7 @@ body:not(.user-is-tabbing) a:focus {
   height: 300px;
   border: 1px solid var(--red);
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: 5px;
 }
 
 /* This container is needed to position the front and back side */
