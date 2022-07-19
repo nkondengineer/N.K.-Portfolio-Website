@@ -1,5 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+ 
+  <script>
+    function on() {
+        document.getElementById("overlay").style.display = "block"
+      }
+      function off() {
+  document.getElementById("overlay").style.display = "none"
+      }
+  </script>
   
   <head>
     <meta charset="UTF-8" />
@@ -15,8 +24,11 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   
-  <body>
-    
+  <div id="overlay" onclick="off()">
+    <div id="text">This website is a Work in Progress. Thank you for your Patience!</div>
+  </div>
+  
+  <body onload="on()">
     <a name="home"></a>
     <header class="header" role="banner" id="top">
       <div class="row">
