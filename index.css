@@ -73,7 +73,7 @@
   top: 50%;
   left: 50%;
   font-size: 50px;
-  color: black;
+  color: var(--black);
   transform: translate(-50%,-50%);
   -ms-transform: translate(-50%,-50%);
 }
@@ -200,7 +200,7 @@ h3 {
     .heading-primary {
         font-size: var(--font-size-large);
     }
-
+    
     h2 {
         font-size: var(--font-size-medium-1);
     }
